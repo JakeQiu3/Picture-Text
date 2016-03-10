@@ -1,8 +1,8 @@
 //
 //  ViewController.h
-//  图形绘制
+//  Model
 //
-//  Created by 邱少依 on 16/1/4.
+//  Created by qsyMac on 16/1/22.
 //  Copyright © 2016年 QSY. All rights reserved.
 //
 

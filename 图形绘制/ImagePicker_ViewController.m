@@ -6,10 +6,10 @@
 //  Copyright © 2016年 QSY. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "ImagePicker_ViewController.h"
 
 #define CONSTROLPANEL_FONTSIZE 12
-@interface MainViewController ()<UINavigationControllerDelegate,UIImagePickerControllerDelegate>
+@interface ImagePicker_ViewController ()<UINavigationControllerDelegate,UIImagePickerControllerDelegate>
 {
     UIImagePickerController *_imagePickerController;//系统照片选择控制器
     UIImageView *_imageV;//图片显示控件
@@ -20,7 +20,7 @@
 }
 @end
 
-@implementation MainViewController
+@implementation ImagePicker_ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -151,21 +151,5 @@
     [_colorControlsFilter setValue:[NSNumber numberWithFloat:slider.value] forKey:@"inputContrast"];
     [self setImage];
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

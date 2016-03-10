@@ -1,5 +1,5 @@
 //
-//  MainViewController.h
+//  ViewController.h
 //  图形绘制
 //
 //  Created by 邱少依 on 16/1/4.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController
+@interface FirstViewController : UIViewController
+
 
 @end
+

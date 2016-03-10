@@ -7,27 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		733313201C65DBE400D7A0A1 /* 绝佳提问.pages in Resources */ = {isa = PBXBuildFile; fileRef = 7333131F1C65DBE400D7A0A1 /* 绝佳提问.pages */; };
+		308731461C89DC0800ED29E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308731451C89DC0800ED29E1 /* ViewController.m */; };
+		3087314B1C89DEA700ED29E1 /* PaintTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3087314A1C89DEA700ED29E1 /* PaintTextViewController.m */; };
+		3087314E1C89E11000ED29E1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3087314D1C89E11000ED29E1 /* SecondViewController.m */; };
+		308731511C89E11B00ED29E1 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 308731501C89E11B00ED29E1 /* ThirdViewController.m */; };
+		30FB07431C91B7D000E63E10 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB07421C91B7D000E63E10 /* AViewController.m */; };
+		30FB07461C91B82400E63E10 /* Aview.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB07451C91B82400E63E10 /* Aview.m */; };
+		30FB07491C91B8D000E63E10 /* BView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB07481C91B8D000E63E10 /* BView.m */; };
+		30FB074C1C91B8E400E63E10 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB074B1C91B8E400E63E10 /* BViewController.m */; };
+		30FB074F1C91BE0600E63E10 /* PaintGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB074E1C91BE0600E63E10 /* PaintGraphViewController.m */; };
+		30FB07521C91BF4500E63E10 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB07511C91BF4500E63E10 /* CViewController.m */; };
+		30FB07551C91BF5500E63E10 /* CView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB07541C91BF5500E63E10 /* CView.m */; };
+		30FB07581C91C53D00E63E10 /* EView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB07571C91C53D00E63E10 /* EView.m */; };
+		30FB075B1C91C54F00E63E10 /* EViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB075A1C91C54F00E63E10 /* EViewController.m */; };
+		30FB075E1C91C7F600E63E10 /* FViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB075D1C91C7F600E63E10 /* FViewController.m */; };
+		30FB07611C91C80F00E63E10 /* FView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB07601C91C80F00E63E10 /* FView.m */; };
+		30FB07641C91D15F00E63E10 /* ThirdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB07631C91D15F00E63E10 /* ThirdView.m */; };
+		30FB07671C91D2D500E63E10 /* KViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB07661C91D2D500E63E10 /* KViewController.m */; };
+		30FB076A1C91D42100E63E10 /* JViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB07691C91D42100E63E10 /* JViewController.m */; };
+		30FB076D1C91D43100E63E10 /* JView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB076C1C91D43100E63E10 /* JView.m */; };
+		30FB07731C91D97900E63E10 /* DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB07721C91D97900E63E10 /* DViewController.m */; };
 		733CA49D1C3A393700E71517 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 733CA49C1C3A393700E71517 /* main.m */; };
 		733CA4A01C3A393700E71517 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 733CA49F1C3A393700E71517 /* AppDelegate.m */; };
-		733CA4A31C3A393700E71517 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733CA4A21C3A393700E71517 /* ViewController.m */; };
+		733CA4A31C3A393700E71517 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733CA4A21C3A393700E71517 /* FirstViewController.m */; };
 		733CA4A61C3A393700E71517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733CA4A41C3A393700E71517 /* Main.storyboard */; };
 		733CA4A81C3A393700E71517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 733CA4A71C3A393700E71517 /* Assets.xcassets */; };
 		733CA4AB1C3A393700E71517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 733CA4A91C3A393700E71517 /* LaunchScreen.storyboard */; };
 		733CA4B41C3A39CE00E71517 /* KCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 733CA4B31C3A39CE00E71517 /* KCView.m */; };
 		733CA4B61C3A4D1A00E71517 /* 0-启动页-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 733CA4B51C3A4D1A00E71517 /* 0-启动页-1.jpg */; };
-		733CA5081C3A8AB900E71517 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733CA5071C3A8AB900E71517 /* MainViewController.m */; };
+		733CA5081C3A8AB900E71517 /* ImagePicker_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 733CA5071C3A8AB900E71517 /* ImagePicker_ViewController.m */; };
 		73E1A1101C3B5B540040D51D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E1A10F1C3B5B540040D51D /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7333131F1C65DBE400D7A0A1 /* 绝佳提问.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = "绝佳提问.pages"; sourceTree = "<group>"; };
+		308731441C89DC0800ED29E1 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		308731451C89DC0800ED29E1 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		308731491C89DEA700ED29E1 /* PaintTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintTextViewController.h; sourceTree = "<group>"; };
+		3087314A1C89DEA700ED29E1 /* PaintTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintTextViewController.m; sourceTree = "<group>"; };
+		3087314C1C89E11000ED29E1 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3087314D1C89E11000ED29E1 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3087314F1C89E11B00ED29E1 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		308731501C89E11B00ED29E1 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		30FB07411C91B7D000E63E10 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		30FB07421C91B7D000E63E10 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		30FB07441C91B82400E63E10 /* Aview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aview.h; sourceTree = "<group>"; };
+		30FB07451C91B82400E63E10 /* Aview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aview.m; sourceTree = "<group>"; };
+		30FB07471C91B8D000E63E10 /* BView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BView.h; sourceTree = "<group>"; };
+		30FB07481C91B8D000E63E10 /* BView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BView.m; sourceTree = "<group>"; };
+		30FB074A1C91B8E400E63E10 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		30FB074B1C91B8E400E63E10 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		30FB074D1C91BE0600E63E10 /* PaintGraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintGraphViewController.h; sourceTree = "<group>"; };
+		30FB074E1C91BE0600E63E10 /* PaintGraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintGraphViewController.m; sourceTree = "<group>"; };
+		30FB07501C91BF4500E63E10 /* CViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		30FB07511C91BF4500E63E10 /* CViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
+		30FB07531C91BF5500E63E10 /* CView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CView.h; sourceTree = "<group>"; };
+		30FB07541C91BF5500E63E10 /* CView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CView.m; sourceTree = "<group>"; };
+		30FB07561C91C53D00E63E10 /* EView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EView.h; sourceTree = "<group>"; };
+		30FB07571C91C53D00E63E10 /* EView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EView.m; sourceTree = "<group>"; };
+		30FB07591C91C54F00E63E10 /* EViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EViewController.h; sourceTree = "<group>"; };
+		30FB075A1C91C54F00E63E10 /* EViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EViewController.m; sourceTree = "<group>"; };
+		30FB075C1C91C7F600E63E10 /* FViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FViewController.h; sourceTree = "<group>"; };
+		30FB075D1C91C7F600E63E10 /* FViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FViewController.m; sourceTree = "<group>"; };
+		30FB075F1C91C80F00E63E10 /* FView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FView.h; sourceTree = "<group>"; };
+		30FB07601C91C80F00E63E10 /* FView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FView.m; sourceTree = "<group>"; };
+		30FB07621C91D15F00E63E10 /* ThirdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdView.h; sourceTree = "<group>"; };
+		30FB07631C91D15F00E63E10 /* ThirdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdView.m; sourceTree = "<group>"; };
+		30FB07651C91D2D500E63E10 /* KViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KViewController.h; sourceTree = "<group>"; };
+		30FB07661C91D2D500E63E10 /* KViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KViewController.m; sourceTree = "<group>"; };
+		30FB07681C91D42100E63E10 /* JViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JViewController.h; sourceTree = "<group>"; };
+		30FB07691C91D42100E63E10 /* JViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JViewController.m; sourceTree = "<group>"; };
+		30FB076B1C91D43100E63E10 /* JView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JView.h; sourceTree = "<group>"; };
+		30FB076C1C91D43100E63E10 /* JView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JView.m; sourceTree = "<group>"; };
+		30FB07711C91D97900E63E10 /* DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DViewController.h; sourceTree = "<group>"; };
+		30FB07721C91D97900E63E10 /* DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DViewController.m; sourceTree = "<group>"; };
 		733CA4981C3A393700E71517 /* 图形绘制.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图形绘制.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		733CA49C1C3A393700E71517 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		733CA49E1C3A393700E71517 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		733CA49F1C3A393700E71517 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		733CA4A11C3A393700E71517 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		733CA4A21C3A393700E71517 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		733CA4A11C3A393700E71517 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		733CA4A21C3A393700E71517 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		733CA4A51C3A393700E71517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		733CA4A71C3A393700E71517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		733CA4AA1C3A393700E71517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,8 +93,8 @@
 		733CA4B21C3A39CE00E71517 /* KCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KCView.h; sourceTree = "<group>"; };
 		733CA4B31C3A39CE00E71517 /* KCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KCView.m; sourceTree = "<group>"; };
 		733CA4B51C3A4D1A00E71517 /* 0-启动页-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0-启动页-1.jpg"; sourceTree = "<group>"; };
-		733CA5061C3A8AB900E71517 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		733CA5071C3A8AB900E71517 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		733CA5061C3A8AB900E71517 /* ImagePicker_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePicker_ViewController.h; sourceTree = "<group>"; };
+		733CA5071C3A8AB900E71517 /* ImagePicker_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePicker_ViewController.m; sourceTree = "<group>"; };
 		73E1A10F1C3B5B540040D51D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -52,6 +110,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		308731471C89DD5F00ED29E1 /* 绘制文字大全 */ = {
+			isa = PBXGroup;
+			children = (
+				308731491C89DEA700ED29E1 /* PaintTextViewController.h */,
+				3087314A1C89DEA700ED29E1 /* PaintTextViewController.m */,
+				30FB074A1C91B8E400E63E10 /* BViewController.h */,
+				30FB074B1C91B8E400E63E10 /* BViewController.m */,
+				30FB07471C91B8D000E63E10 /* BView.h */,
+				30FB07481C91B8D000E63E10 /* BView.m */,
+				30FB07501C91BF4500E63E10 /* CViewController.h */,
+				30FB07511C91BF4500E63E10 /* CViewController.m */,
+				30FB07531C91BF5500E63E10 /* CView.h */,
+				30FB07541C91BF5500E63E10 /* CView.m */,
+				30FB07711C91D97900E63E10 /* DViewController.h */,
+				30FB07721C91D97900E63E10 /* DViewController.m */,
+			);
+			name = "绘制文字大全";
+			sourceTree = "<group>";
+		};
 		733CA48F1C3A393700E71517 = {
 			isa = PBXGroup;
 			children = (
@@ -72,15 +149,13 @@
 		733CA49A1C3A393700E71517 /* 图形绘制 */ = {
 			isa = PBXGroup;
 			children = (
-				733CA4B51C3A4D1A00E71517 /* 0-启动页-1.jpg */,
 				733CA49E1C3A393700E71517 /* AppDelegate.h */,
 				733CA49F1C3A393700E71517 /* AppDelegate.m */,
-				733CA5041C3A8A5300E71517 /* 绘制文字图片和pdf等 */,
-				733CA5051C3A8A7900E71517 /* CoreImage滤镜 */,
-				733CA4A71C3A393700E71517 /* Assets.xcassets */,
-				733CA4A41C3A393700E71517 /* Main.storyboard */,
-				733CA4A91C3A393700E71517 /* LaunchScreen.storyboard */,
-				733CA4AC1C3A393700E71517 /* Info.plist */,
+				308731441C89DC0800ED29E1 /* ViewController.h */,
+				308731451C89DC0800ED29E1 /* ViewController.m */,
+				308731471C89DD5F00ED29E1 /* 绘制文字大全 */,
+				733CA5041C3A8A5300E71517 /* 绘制图形大全 */,
+				733CA5051C3A8A7900E71517 /* CoreImage滤镜(设置照相机) */,
 				733CA49B1C3A393700E71517 /* Supporting Files */,
 			);
 			path = "图形绘制";
@@ -89,30 +164,60 @@
 		733CA49B1C3A393700E71517 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				733CA4B51C3A4D1A00E71517 /* 0-启动页-1.jpg */,
+				733CA4A71C3A393700E71517 /* Assets.xcassets */,
+				733CA4AC1C3A393700E71517 /* Info.plist */,
+				733CA4A41C3A393700E71517 /* Main.storyboard */,
+				733CA4A91C3A393700E71517 /* LaunchScreen.storyboard */,
 				733CA49C1C3A393700E71517 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		733CA5041C3A8A5300E71517 /* 绘制文字图片和pdf等 */ = {
+		733CA5041C3A8A5300E71517 /* 绘制图形大全 */ = {
 			isa = PBXGroup;
 			children = (
-				733CA4A11C3A393700E71517 /* ViewController.h */,
-				733CA4A21C3A393700E71517 /* ViewController.m */,
+				30FB074D1C91BE0600E63E10 /* PaintGraphViewController.h */,
+				30FB074E1C91BE0600E63E10 /* PaintGraphViewController.m */,
+				733CA4A11C3A393700E71517 /* FirstViewController.h */,
+				733CA4A21C3A393700E71517 /* FirstViewController.m */,
+				30FB07411C91B7D000E63E10 /* AViewController.h */,
+				30FB07421C91B7D000E63E10 /* AViewController.m */,
+				30FB07441C91B82400E63E10 /* Aview.h */,
+				30FB07451C91B82400E63E10 /* Aview.m */,
+				30FB07591C91C54F00E63E10 /* EViewController.h */,
+				30FB075A1C91C54F00E63E10 /* EViewController.m */,
+				30FB07561C91C53D00E63E10 /* EView.h */,
+				30FB07571C91C53D00E63E10 /* EView.m */,
+				30FB075C1C91C7F600E63E10 /* FViewController.h */,
+				30FB075D1C91C7F600E63E10 /* FViewController.m */,
+				30FB075F1C91C80F00E63E10 /* FView.h */,
+				30FB07601C91C80F00E63E10 /* FView.m */,
+				3087314F1C89E11B00ED29E1 /* ThirdViewController.h */,
+				308731501C89E11B00ED29E1 /* ThirdViewController.m */,
+				30FB07621C91D15F00E63E10 /* ThirdView.h */,
+				30FB07631C91D15F00E63E10 /* ThirdView.m */,
+				30FB07651C91D2D500E63E10 /* KViewController.h */,
+				30FB07661C91D2D500E63E10 /* KViewController.m */,
 				733CA4B21C3A39CE00E71517 /* KCView.h */,
-				7333131F1C65DBE400D7A0A1 /* 绝佳提问.pages */,
 				733CA4B31C3A39CE00E71517 /* KCView.m */,
+				30FB07681C91D42100E63E10 /* JViewController.h */,
+				30FB07691C91D42100E63E10 /* JViewController.m */,
+				30FB076B1C91D43100E63E10 /* JView.h */,
+				30FB076C1C91D43100E63E10 /* JView.m */,
+				3087314C1C89E11000ED29E1 /* SecondViewController.h */,
+				3087314D1C89E11000ED29E1 /* SecondViewController.m */,
 			);
-			name = "绘制文字图片和pdf等";
+			name = "绘制图形大全";
 			sourceTree = "<group>";
 		};
-		733CA5051C3A8A7900E71517 /* CoreImage滤镜 */ = {
+		733CA5051C3A8A7900E71517 /* CoreImage滤镜(设置照相机) */ = {
 			isa = PBXGroup;
 			children = (
-				733CA5061C3A8AB900E71517 /* MainViewController.h */,
-				733CA5071C3A8AB900E71517 /* MainViewController.m */,
+				733CA5061C3A8AB900E71517 /* ImagePicker_ViewController.h */,
+				733CA5071C3A8AB900E71517 /* ImagePicker_ViewController.m */,
 			);
-			name = "CoreImage滤镜";
+			name = "CoreImage滤镜(设置照相机)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,7 +279,6 @@
 			files = (
 				733CA4AB1C3A393700E71517 /* LaunchScreen.storyboard in Resources */,
 				733CA4B61C3A4D1A00E71517 /* 0-启动页-1.jpg in Resources */,
-				733313201C65DBE400D7A0A1 /* 绝佳提问.pages in Resources */,
 				733CA4A81C3A393700E71517 /* Assets.xcassets in Resources */,
 				733CA4A61C3A393700E71517 /* Main.storyboard in Resources */,
 			);
@@ -187,10 +291,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30FB07551C91BF5500E63E10 /* CView.m in Sources */,
+				308731461C89DC0800ED29E1 /* ViewController.m in Sources */,
+				30FB07461C91B82400E63E10 /* Aview.m in Sources */,
+				30FB07611C91C80F00E63E10 /* FView.m in Sources */,
+				30FB075E1C91C7F600E63E10 /* FViewController.m in Sources */,
 				733CA4B41C3A39CE00E71517 /* KCView.m in Sources */,
-				733CA4A31C3A393700E71517 /* ViewController.m in Sources */,
+				30FB07491C91B8D000E63E10 /* BView.m in Sources */,
+				30FB074F1C91BE0600E63E10 /* PaintGraphViewController.m in Sources */,
+				30FB07581C91C53D00E63E10 /* EView.m in Sources */,
+				30FB076A1C91D42100E63E10 /* JViewController.m in Sources */,
+				30FB07521C91BF4500E63E10 /* CViewController.m in Sources */,
+				733CA4A31C3A393700E71517 /* FirstViewController.m in Sources */,
 				733CA4A01C3A393700E71517 /* AppDelegate.m in Sources */,
-				733CA5081C3A8AB900E71517 /* MainViewController.m in Sources */,
+				3087314E1C89E11000ED29E1 /* SecondViewController.m in Sources */,
+				308731511C89E11B00ED29E1 /* ThirdViewController.m in Sources */,
+				30FB076D1C91D43100E63E10 /* JView.m in Sources */,
+				30FB074C1C91B8E400E63E10 /* BViewController.m in Sources */,
+				30FB07431C91B7D000E63E10 /* AViewController.m in Sources */,
+				30FB07671C91D2D500E63E10 /* KViewController.m in Sources */,
+				733CA5081C3A8AB900E71517 /* ImagePicker_ViewController.m in Sources */,
+				3087314B1C89DEA700ED29E1 /* PaintTextViewController.m in Sources */,
+				30FB075B1C91C54F00E63E10 /* EViewController.m in Sources */,
+				30FB07731C91D97900E63E10 /* DViewController.m in Sources */,
+				30FB07641C91D15F00E63E10 /* ThirdView.m in Sources */,
 				733CA49D1C3A393700E71517 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,13 +1,13 @@
 //
-//  KCView.h
+//  FViewController.h
 //  图形绘制
 //
-//  Created by 邱少依 on 16/1/4.
+//  Created by qsyMac on 16/3/10.
 //  Copyright © 2016年 QSY. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface KCView : UIView
+@interface FViewController : UIViewController
 
 @end
